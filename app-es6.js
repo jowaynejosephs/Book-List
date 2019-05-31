@@ -62,7 +62,7 @@ class Store{
             if(localStorage.getItem('books')==null){
                  books=[]
             } else {
-                books=JSON.parse(localSorage.getItem('books'))
+                books=JSON.parse(localStorage.getItem('books'))
             }
 
             return books;
